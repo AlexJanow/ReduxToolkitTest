@@ -1,7 +1,7 @@
 import "./App.css";
-
+import {Cart} from "./features/cart/Cart"
 function App() {
-  return <div className="App">Hi dude</div>;
+  return <div className="App"><Cart/></div>;
 }
 
 export default App;
